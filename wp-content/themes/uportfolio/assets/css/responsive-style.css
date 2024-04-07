@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1920px){
+	section.cww-main-banner{
+		    height: 83vh;
+	}
+}
+@media only screen and (max-width: 1440px){
+	.shape-wrapper svg{
+		height: 575px;
+	}
+
+}
+
+@media only screen and (max-width: 1366px){
+	 section.cww-main-banner .container {
+	 	padding-top: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	.container,
+	section.cww-main-banner .container {
+	    padding: 0 45px;
+	}
+	section.cww-main-banner .container{
+		padding-bottom: 1rem;
+	}
+	.shape-wrapper svg {
+    	width: 580px;
+    }
+}
+@media only screen and (max-width: 768px){
+	section.cww-main-banner .content-wrapp {
+		background: transparent;
+		padding: 0;
+		flex: 1 1 48%;
+		padding-top: 2rem;
+	}
+	.shape-wrapper svg {
+	    width: 350px;
+	    height: 350px;
+	}
+
+	section.cww-main-banner {
+	    height: 60vh;
+	}
+	.cww-service-section, .cww-about-section, .cww-contact-section{
+		padding: 32px 0;
+	}
+	.cww-contact-section .form-wrapp form .cww-flex,.cww-contact-section .form-elements, .cww-contact-section .form-wrapp form p{
+		max-width: 100%;
+		display: block;
+	}
+	
+}
+
+
+@media only screen and (max-width: 425px){
+	section.cww-main-banner {
+	    height: auto;
+	}
+	.shape-wrapper svg {
+	    width: 300px;
+	    height: 300px;
+	}	
+
+}

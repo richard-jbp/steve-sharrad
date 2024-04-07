@@ -1,0 +1,129 @@
+/*
+Theme Name: UPortfolio
+Theme URI: https://codeworkweb.com/themes/uportfolio
+Template: cww-portfolio
+Text Domain: uportfolio
+Author: Code Work Web
+Author URI: https://codeworkweb.com/
+Description: This is child theme of CWW Portfolio. This is useful theme for personal portfolio sites to publish your personal websites in an style with easy configuration options.Get free support at https://codeworkweb.com/contact/  and Check demo at https://demo.codeworkweb.com/cww-portfolio/
+Tags: custom-background,custom-logo,custom-menu,featured-images,threaded-comments,translation-ready
+Version: 1.0.1
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+CWW Portfolio is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+
+*/
+
+section.cww-main-banner{
+    background: rgba(108,85,224, 0.1);
+    height: 87vh;
+}
+.cww-contact-section{
+    background: rgba(108,85,224, 0.1);
+}
+.cww-portfolio-section{
+	background: rgba(108,85,224, 0.1);
+}
+section.cww-main-banner .animated-bg{
+	background: #6c55e0;
+}
+.count-item-wrapp{
+	border-color:#6c55e0;
+	background-color: rgba(108,85,224, 0.1);
+}
+.icon-wrapp svg {
+    height: 650px;
+    width: 650px;
+}
+
+section.cww-main-banner .container{
+	display: block;
+}
+/*  */
+section.cww-main-banner .container{
+	padding: 0;
+	    justify-content: space-between;
+}
+.shape-wrapper svg {
+    width: 640px;
+        will-change: border-radius, transform, opacity;
+    animation: bganimeUltimate 5s linear infinite;
+    display: block;
+    -webkit-animation: bganimeUltimate 5s linear infinite;
+}
+.shape-wrapper svg path{
+	fill: var(--theme-color);
+}
+.svg-image-main{
+	width: 130px;
+}
+
+.header-cta-wrapp a, .cww-main-banner .btn-primary a, .cww-cta-section .btn-wrapper a, .error-404 .button-wrapp a {
+    -webkit-box-shadow: 0px 8px 5px 0px rgb(0 0 0 / 10%);
+            box-shadow: 0px 8px 5px 0px rgb(0 0 0 / 10%);
+}
+/* Social Icons */
+.icons-wrapper-fixed .social-icon-wrapp {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icons-wrapper-fixed .social-icon-wrapp a {
+    display: block;
+    color: #fff;
+    background: var(--theme-color);
+    padding: 10px;
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.icons-wrapper-fixed .social-icon-wrapp a:hover {
+    background: #00171f;
+}
+.icons-wrapper-fixed .social-icon-wrapp a:not(:last-child) {
+    border-bottom: 0.5px solid var(--theme-color);
+}
+/*  */
+section.cww-main-banner {
+    background: rgba(108,85,224, 0.1);
+    height: 65vh;
+}
+/*  */
+.section-title-wrapp h3{
+	position: relative;
+}
+.section-title-wrapp:before {
+    background-color: rgba(108,85,224,0.1);
+}
+.section-title-wrapp h3:after {
+    content: "";
+    position: absolute;
+    background: var(--theme-color);
+    height: 15px;
+    width: 15px;
+}
+
+
+section.cww-main-banner{
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 89%);
+           clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 89%);
+}
+.cww-cta-section{
+	padding: 180px 0;
+	-webkit-clip-path: polygon(0 13%, 100% 0%, 100% 84%, 0% 100%);
+            clip-path: polygon(0 13%, 100% 0%, 100% 84%, 0% 100%);
+}
